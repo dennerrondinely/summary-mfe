@@ -12,7 +12,7 @@ export const colors = {
   backgroundAlt: "#20232A",        // alternativa para seções
 
   // Texto
-  primaryText: "#E8E8E8",          // texto principal
+  primaryText: "#666666",          // texto principal
   secondaryText: "#B1B1B1",        // texto secundário
   mutedText: "#8C8C8C",            // texto desativado ou pouco relevante
 
