@@ -5,7 +5,7 @@ import { globalStyles } from "../styles/globalStyles"
 import { useMemo } from "react"
 import { StyleSheet, Text, View } from "react-native"
 // @ts-ignore
-import { useMoneyStore } from "store/transactionsStore"
+import { useMoneyStore } from "store/Store"
 
 export default function Summary() {
   const { transactions } = useMoneyStore()
