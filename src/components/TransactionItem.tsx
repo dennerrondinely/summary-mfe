@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native"
 import { categories } from "../constants/categories"
 import CategoryItem from "./CategoryItem"
 
-interface TransactionItemProps {
+export interface TransactionItemProps {
   category: keyof typeof categories
   date: string
   description: string
